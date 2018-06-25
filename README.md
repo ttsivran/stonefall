@@ -1,4 +1,4 @@
-# s18-jmccann1-fguyotsi-doyeka-ttsivran
+# Stonefall
 
 # README
 Project Idea: defend.io
@@ -7,7 +7,16 @@ a public web server. The game will be based on each player having a base they
 protect, while simultaneously collecting resources, upgrading their base and
 attacking other players' bases.
 
-## defend.io
+## stonefall.io
+
+How to build and play: 
+- Clone this repository. You will not have a local directory called stonefall. 
+- Make sure you have maven installed on your computer and then go to the stonefall directory in your terminal and write `mvn package && ./run --gui`. 
+- Then, open a browser and go to: `localhost:4567`
+- If you'd like, read the tutorial to get familiar with the game.
+- When running locally if you want to include multiple players in the game, open up multiple tabs and log them on.
+
+- If you'd like to play in a local network with other people, connect to the same network with them and then go into: src/main/resources/static/js/Websockets.js and comment out the `const ip = localhost:4567` and replace it with `const ip = <enter-ip-address>`. Then all players on the same network can go to `<enter-ip-address>:4567` and play together.
 
 Map is 2d array of blocks which can contain structures(base, wall, turret?)/pawns(gatherers, attackers)/
 resources on them. Each player starts with a block somewhere on the map that is their base, and some gatherer
@@ -43,18 +52,15 @@ Mac McCann:
 
 Teo Tsivranidis:
 - Strengths:
-  - Thinking through code before writing anything
+  - Backend Java code
   - Gui design
   - Time management
 - Weaknesses:
   - Difficulty of deciding that some code design is optimal.
-  - Bad with Javascript
-
 
   Fabrice Guyot-Sionnest:
 - Strength:
   - extracting maximum help out of tas
-<<<<<<< HEAD
   - networking/sockets
 -Weakness: 
   - algorithms
