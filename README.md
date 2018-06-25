@@ -1,7 +1,8 @@
 # Stonefall
 
 # README
-Project Idea: defend.io
+Project Idea: stonefall.io
+
 Our project idea is a multiplayer, interactive '.io' game to be hosted on
 a public web server. The game will be based on each player having a base they
 protect, while simultaneously collecting resources, upgrading their base and
@@ -62,5 +63,5 @@ Teo Tsivranidis:
 - Strength:
   - extracting maximum help out of tas
   - networking/sockets
--Weakness: 
+- Weakness: 
   - algorithms
